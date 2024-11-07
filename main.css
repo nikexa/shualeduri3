@@ -1,0 +1,421 @@
+body{
+    margin: 0px;
+}
+.dasawysi{
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+.marcxena{
+    width: 550px;
+    height: 800px;
+    background-color: #151515;
+}
+.marjvena{
+    width: 540px;
+    height: 800px;
+    background-image: url(./Rectangle\ \(1\).jpg);
+    background-size: contain;
+}
+.marcxena p{
+    width: 700px;
+    height: 176px;
+    margin-top: 189px;
+    margin-left: 120px;
+    mix-blend-mode: difference;
+    color: white;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+}
+.marjvena .info{
+    width: 350px;
+    height: 160px;
+    margin-top: 190px;
+    margin-left: 450px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+.btn{
+    width: 260px;
+    height: 72px;
+    margin-left: 450px;
+}
+.btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+}
+.btn .text{
+    width: 204px;
+    height: 72px;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn .img{
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn a:hover .text{
+    background-color: #D5966C;
+}
+.btn a:hover .img{
+    background-color: #151515;
+}
+
+.meore{
+    width: 1110px;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+    gap: 120px;
+    row-gap: 20px;
+    
+}
+.meore .text{
+    width: 350px;
+    height: 280px;
+}
+.meore .maintext{
+    width: 350px;
+    height: 120px;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0px;
+    color: #151515;
+}
+.meore .secondary{
+    width: 350px;
+    height: 128px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+.meore .photo1{
+    width: 635px;
+    height: 400px;
+    background-image: url(./Rectangle\ \(2\).jpg);
+    background-size: contain;
+
+}
+.mesame{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+.mesame .marjvena2{
+
+    width: 635px;
+    height: 720px;
+    background-image: url(./Rectangle\ Copy\ 2.jpg);
+    background-size: contain;
+
+}
+.mesame .marcxena2 .first{
+    width: 445px;
+    height: 313px;
+    background-image: url(./Rectangle\ Copy\ 4.jpg);
+    background-size: contain;
+}
+.mesame .marcxena2 .second{
+    width: 445px;
+    height: 377px;
+    background-color: #151515;
+    margin-top: 30px;
+}
+.mesame .marcxena2 .second .didi{
+    width: 350px;
+    height: 120px;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.mesame .marcxena2 .second .patara{
+    width: 350px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    margin: auto;
+    margin-top: 25px;
+}
+footer{
+    width: 100%;
+    height: 244px;
+    background-color: #151515;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+footer .left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+footer .left p{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0px;
+}
+footer .mid{
+    display: flex;
+    align-items: center;
+}
+footer .mid p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0px;
+    line-height: 30px;
+}
+footer .right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+footer .right a{
+    text-decoration: none;
+    color: white;
+}
+footer .right i{
+    padding: 15px;
+    font-size: 30px;
+}
+footer .right a:hover{
+    color: #D5966C;
+}
+@media screen and (max-width: 1360px){
+.marcxena{
+    width: 0px;
+}
+.marcxena p{
+    width: 510px;
+    color: #151515;
+    mix-blend-mode: multiply;
+    font-size: 70px;
+    line-height: 65px;
+    margin-left: 450px;
+}
+.marjvena .info{
+    margin-top: 400px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+.meore{
+    width: 700px;
+    gap: 10px;
+    height: 300px;
+}
+.meore .text{
+    width: 300px;
+}
+.meore .maintext{
+    font-size: 40px;
+    line-height: 45px;
+    width: 300px;
+}
+.meore .secondary{
+    font-size: 18px;
+    line-height: 28px;
+    width: 300px;
+}
+.meore .photo1{
+    background-repeat: no-repeat;
+    background-size: contain;
+}.mesame{
+    height: 600px;
+}
+.mesame .marjvena2{
+    width: 400px;
+    background-repeat: no-repeat;
+}
+.mesame .marcxena2 .first{
+    width: 280px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.mesame .marcxena2 .second{
+    width: 280px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 245px;
+}
+.mesame .marcxena2 .second .didi{
+    width: 240px;
+    font-size: 40px;
+    line-height: 45px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+.mesame .marcxena2 .second .patara{
+    font-size: 18px;
+    line-height: 28px;
+    width: 220px;
+    margin-top: 0px;
+}
+footer{
+    margin-top: 0px;
+}
+}
+@media screen and (max-width: 970px){
+    .dasawysi{
+        margin-bottom: 300px;
+    }
+    .dasawysi .marjvena{
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .marcxena p{
+        margin: 0px;
+        margin-top: 550px;
+        margin-left: 100px;
+    }
+    .marjvena .info{
+        margin: 0px;
+        margin-top: 750px;
+        margin-left: 100px;
+    }
+    .btn{
+        margin: 0px;
+        margin-left: 100px;
+    }
+    footer .left p{
+        font-size: 20px;
+    }
+    footer .mid p{
+        font-size: 13px;
+    }
+    footer .right i{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 710px){
+    .meore{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .meore .photo1{
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+    .mesame{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        min-height: auto;
+    }
+    .mesame .marjvena2{
+        background-size: contain;
+        width: 100%;
+        background-position: center;
+    }
+    .marcxena2{
+        height: auto;
+    }
+    .mesame .marcxena2 .first{
+        width: 100%;
+        height: 380px;
+        background-size: cover;
+        margin: auto;
+    }
+    .mesame .marcxena2 .second{
+        margin: auto;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .meore .maintext{
+        font-size: 55px;
+        font-weight: 900;
+        line-height: 45px;
+    }
+    .meore .text{
+        margin: auto;
+    }
+    .marcxena p{
+        font-size: 30px;
+        line-height: 30px;
+        width: 250px;
+        height: 70px;
+        justify-content: center;
+        margin-top: 520px;
+    }
+    .marjvena .info{
+        margin: auto;
+        margin-top: 650px;
+        width: 80%;
+    }
+    .mesame .marcxena2 .second .didi{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 560px){
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .left {
+        justify-content: start;
+        margin-left: 50px;
+        margin-top: 20px;
+        width: auto;
+    }
+    footer .right{
+        width: auto;
+    }
+    footer .mid p{
+        width: 70%;
+        margin-left: 50px;
+    }
+    footer .right{
+        justify-content: start;
+        margin-left: 40px;
+    }
+    
+}
+@media screen and (max-width: 460px){
+    .marcxena p{
+        margin-left: 40px;
+    }
+    .btn{
+        margin-left: 30px;
+    }
+    .marjvena2{
+        height: 500px !important;
+    }
+    footer .right{
+        justify-content: start;
+        margin-left: 40px;
+    }
+}
